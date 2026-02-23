@@ -1,5 +1,5 @@
 #tst push
-
+#test pull
 import time, random, os,  sys
 from dialoge_notes import death_wish
 #Empty bag code for item collecting
@@ -176,3 +176,4 @@ elif choice == "3":
     else:
         die("The golem crushes you")
        
+
