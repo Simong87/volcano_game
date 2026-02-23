@@ -1,3 +1,5 @@
+#tst push
+
 import time, random, os,  sys
 from dialoge_notes import death_wish
 #Empty bag code for item collecting
