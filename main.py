@@ -2,8 +2,6 @@
 #test pull
 import time, random, os,  sys
 from dialoge_notes import death_wish
-#Empty bag code for item collecting
-Inventory = []
 
 #colours 
 R = "\033[31m"
@@ -59,7 +57,7 @@ if choice == "1":
             Inventory.append("wooden spear")
             print("Spear added to bag...")
             time.sleep(2)
-            print("as you pick up the spear a golem sneaks up on you...")
+            print("as you open the chest a golem sneaks up on you...")
             time.sleep(2)
             print(f"\n{R} ITS GONNA ATTACK YOU {RESET}")
     else:
@@ -176,4 +174,5 @@ elif choice == "3":
     else:
         die("The golem crushes you")
        
+
 
